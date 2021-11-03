@@ -1,16 +1,33 @@
-### Hi there 👋
+```python
+from Developer import PVbolt
 
-<!--
-**PVbolt/PVbolt** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+class AboutMe(PVbolt):
+  def __init__(self):
+    self.name  = "Paulo Victor"
+    self.area  = {"Engineering": ["Electrical", "Data", "Interview"]}
+    self.work  = {"Electrical": "CSN", "Data": None, "Interview": "Karat"}
+    self.local = "Volta Redonda / Brazil"
 
-Here are some ideas to get you started:
+class Skills(PVbolt):
+  def __init__(self):
+    self.languages  = ["Python", "C/C++", "C#", "MySQL", "R", "Octave"]
+    self.libraries  = ["TensorFlow", "Scikit-Learn", "NumPy", "ScyPy", "Pandas", "Tweepy", "BeautifulSoup", "Matplotlib"]
+    self.softwares  = ["Databricks", "MATLAB", "arduino"]
+```
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="left">
+  <a href="#" alt="Outlook">
+  <img src="https://img.shields.io/badge/-Outlook-0072C6?style=flat-square&labelColor=0072C6&logo=microsoftoutlook&logoColor=white&link=mailto:pvictor_vs@hotmail.com" /></a>
+
+  <a href="#" alt="Linkedin">
+  <img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/paulovictoreel/" /></a>
+
+  <a href="#" alt="WhatsApp">
+  <img src="https://img.shields.io/badge/-WhatsApp-25d366?style=flat-square&labelColor=25d366&logo=whatsapp&logoColor=white&link=https://wa.me/5524992588128"/></a>
+
+  <a href="#" alt="Facebook">
+  <img src="https://img.shields.io/badge/-Facebook-3b5998?style=flat-square&labelColor=3b5998&logo=facebook&logoColor=white&link=https://www.facebook.com/paulovictor.eel"/></a>
+
+  <a href="#" alt="Instagram">
+  <img src="https://img.shields.io/badge/-Instagram-DF0174?style=flat-square&labelColor=DF0174&logo=instagram&logoColor=white&link=https://www.instagram.com/pvbolt"/></a>
+</p>  
