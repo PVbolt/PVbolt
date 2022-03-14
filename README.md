@@ -5,7 +5,7 @@ class AboutMe(PVbolt):
   def __init__(self):
     self.name  = "Paulo Victor"
     self.area  = {"Engineering": ["Electrical", "Data", "Interview"]}
-    self.work  = {"Electrical": None, "Data": None, "Interview": "Karat"}
+    self.work  = {"Interview Eng": "Karat", "Python Dev": "Legalbot" ,"Electrical Eng": None, "Data Eng": None}
     self.local = "Volta Redonda / Brazil"
 
 class Skills(PVbolt):
