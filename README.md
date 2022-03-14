@@ -4,8 +4,8 @@ from Developer import PVbolt
 class AboutMe(PVbolt):
   def __init__(self):
     self.name  = "Paulo Victor"
-    self.area  = {"Engineering": ["Electrical", "Data", "Interview"]}
-    self.work  = {"Interview Eng": "Karat", "Python Dev": "Legalbot" ,"Electrical Eng": None, "Data Eng": None}
+    self.area  = {"Engineering": ["Electrical", "Data", "Interview"], "Developer": self.languages}
+    self.work  = {"Interview": "Karat", "Python": "Legalbot"}
     self.local = "Volta Redonda / Brazil"
 
 class Skills(PVbolt):
