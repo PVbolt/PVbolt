@@ -4,15 +4,15 @@ from Developer import PVbolt
 class AboutMe(PVbolt):
   def __init__(self):
     self.name  = "Paulo Victor"
-    self.area  = {"Engineering": ["Electrical", "Data", "Interview"], "Developer": self.languages}
-    self.work  = {"Interview": "Karat", "Python": "Legalbot"}
+    self.area  = {"Engineering": ["Software", "Data", "Interview", "Electrical"], "Developer": self.languages}
+    self.work  = {"Interview": "Karat", "Software": "ioet"}
     self.local = "Volta Redonda / Brazil"
 
 class Skills(PVbolt):
   def __init__(self):
     self.languages  = ["Python", "C/C++", "C#", "MySQL", "R", "Octave"]
     self.libraries  = ["TensorFlow", "Scikit-Learn", "NumPy", "ScyPy", "Pandas", "Tweepy", "BeautifulSoup", "Matplotlib"]
-    self.softwares  = ["Databricks", "MATLAB", "arduino"]
+    self.softwares  = ["Databricks", "MATLAB", "arduino", "VSCode"]
 ```
 
 <p align="left">
